@@ -43,7 +43,7 @@ public class CellPhone {
 
 	@Override public String toString()
 	{
-	 return String.format("Mobile Specificationthis: \n\t %s, \n\t %s, \n\t %s", this.make, this.model, this.cpuSpeed );
+	 return String.format("Mobile Specificationthis: \n\t %s \n\t %s \n\t %s \n\t %.2f", this.make, this.model, this.cpuSpeed, this.batteryPower );
 
 	}
 
